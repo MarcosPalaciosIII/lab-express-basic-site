@@ -1,0 +1,90 @@
+.homeBackground {
+  background-image: url("/images/splashPageImg.gif");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 770px;
+  margin: 0 auto;
+}
+
+.navBar {
+  background: linear-gradient(to bottom right, red, yellow);
+  margin: 0 auto;
+}
+
+.homeTitle {
+  color: #c8ed97;
+}
+
+h1 {
+  font-size: 95px;
+  margin: 0 auto;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.buttons {
+  background-repeat: repeat-x;
+  border-color: #245580;
+  box-shadow: inset 0 1px 0 rgba(255,255,255,.15), 0 1px 1px rgba(0,0,0,.075);
+  color: white;
+  text-shadow: 0 -1px 0 rgba(0,0,0,.2);
+}
+
+.darkBlue {
+  background-color: darkblue;
+}
+
+.darkRed {
+  background-color: darkred;
+}
+
+.darkGreen {
+  background-color: darkgreen;
+}
+
+.about-background {
+  background-color: #11e067;
+  height: 770px;
+  text-align: center;
+}
+
+.about-info {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 15px;
+  line-height: 2.5;
+  margin: 0 auto;
+  padding-top: 70px;
+  width: 67em;
+}
+
+.media-main {
+  background-color: #cc3c2c;
+  display: flex;
+  flex-wrap: wrap;
+  height: 1000px;
+  justify-content: space-around;
+  padding-top: 30px;
+}
+
+.media-header {
+  background-color: #cc3c2c;
+}
+
+.gifs {
+  display: flex;
+  flex-direction: column;
+  height: 315px;
+  justify-content: center;
+  line-height: 1.5;
+  margin: 5px;
+  text-align: center;
+  width: 560px;
+}
+
+.gif-box {
+  height: 315px;
+  padding-top: 10px;
+  width: 560px;
+}
